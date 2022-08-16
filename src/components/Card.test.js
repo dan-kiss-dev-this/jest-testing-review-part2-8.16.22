@@ -4,4 +4,5 @@ import Card from './Card';
 
 it('expect to render card componenent', () => {
   expect(shallow(<Card />).length).toEqual(1);
+  expect(shallow(<Card />)).toMatchSnapshot();
 });
