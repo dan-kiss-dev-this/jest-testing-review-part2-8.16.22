@@ -25,6 +25,11 @@
   "jest": {
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
+    ],
+
+    "coverageReporters": [
+      "json",
+      "html"
     ]
   },
   "browserslist": {
